@@ -1,0 +1,14 @@
+/home/mans-not-hot/IdeaProjects/Banking/src/main/java/Banking/Banking/repositories/CompteCourantRepository.java
+/home/mans-not-hot/IdeaProjects/Banking/src/main/java/Banking/Banking/controllers/OperationController.java
+/home/mans-not-hot/IdeaProjects/Banking/src/main/java/Banking/Banking/BankingApplication.java
+/home/mans-not-hot/IdeaProjects/Banking/src/main/java/Banking/Banking/entities/Compte.java
+/home/mans-not-hot/IdeaProjects/Banking/src/main/java/Banking/Banking/controllers/ClientController.java
+/home/mans-not-hot/IdeaProjects/Banking/src/main/java/Banking/Banking/controllers/CompteCourantController.java
+/home/mans-not-hot/IdeaProjects/Banking/src/main/java/Banking/Banking/entities/Client.java
+/home/mans-not-hot/IdeaProjects/Banking/src/main/java/Banking/Banking/repositories/ClientRepository.java
+/home/mans-not-hot/IdeaProjects/Banking/src/main/java/Banking/Banking/entities/CompteCourant.java
+/home/mans-not-hot/IdeaProjects/Banking/src/main/java/Banking/Banking/controllers/CompteEpargneController.java
+/home/mans-not-hot/IdeaProjects/Banking/src/main/java/Banking/Banking/entities/CompteEpargne.java
+/home/mans-not-hot/IdeaProjects/Banking/src/main/java/Banking/Banking/repositories/CompteEpargneRepository.java
+/home/mans-not-hot/IdeaProjects/Banking/src/main/java/Banking/Banking/entities/Operation.java
+/home/mans-not-hot/IdeaProjects/Banking/src/main/java/Banking/Banking/repositories/OperationRepository.java

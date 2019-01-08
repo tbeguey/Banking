@@ -1,0 +1,14 @@
+Banking/Banking/entities/CompteCourant.class
+Banking/Banking/entities/Compte.class
+Banking/Banking/repositories/CompteCourantRepository.class
+Banking/Banking/entities/Client.class
+Banking/Banking/repositories/ClientRepository.class
+Banking/Banking/controllers/CompteCourantController.class
+Banking/Banking/entities/Operation.class
+Banking/Banking/entities/CompteEpargne.class
+Banking/Banking/controllers/CompteEpargneController.class
+Banking/Banking/BankingApplication.class
+Banking/Banking/controllers/OperationController.class
+Banking/Banking/controllers/ClientController.class
+Banking/Banking/repositories/OperationRepository.class
+Banking/Banking/repositories/CompteEpargneRepository.class
