@@ -60,7 +60,7 @@ public class ClientController {
             return "Client update : " + client.toString();
         }
 
-        //return "Error on our side";
+        return "Error on our side";
     }
 
     @DeleteMapping(path="/{id}")
