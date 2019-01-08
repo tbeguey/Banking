@@ -42,11 +42,6 @@ public class ClientController {
         return "";
     }
 
-    @GetMapping(path="/comptes/{id}")
-    public @ResponseBody Iterable<CompteCourant> getComptesByClient(@PathVariable int id){
-        return clientRepository.findByCompteCourant(id);
-    }
-
     @PostMapping(path="")
     public @ResponseBody String addNewClient(@RequestBody Client client) {
         clientRepository.save(client);
@@ -65,12 +60,17 @@ public class ClientController {
             return "Client update : " + client.toString();
         }
 
-        return "Error on our side";
+        //return "Error on our side";
     }
 
     @DeleteMapping(path="/{id}")
     public @ResponseBody String deleteClient(@PathVariable int id) {
         clientRepository.deleteById(id);
         return "Client deleted : " + id;
+    }
+
+    @GetMapping(path="/rich")
+    public @ResponseBody Iterable<Client> getRichClients() {
+        return clientRepository.findRichClients();
     }
 }
