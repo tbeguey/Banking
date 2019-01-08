@@ -11,4 +11,5 @@ public interface ClientRepository extends CrudRepository<Client, Integer> {
             "where cc.solde > 2000 " +
             "AND ce.solde > 10000", nativeQuery = true)
     Iterable<Client> findRichClients();
+    
 }
